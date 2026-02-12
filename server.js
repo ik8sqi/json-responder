@@ -5,7 +5,7 @@ const jsonPayload = fs.readFileSync('./data.json', 'utf8')
 
 const handler = async (request, reply) => {
   reply
-    .header('Content-Type', 'application/json')
+    .header('Content-Type', 'application/xml')
     .code(200)
     .send(jsonPayload);
 };
