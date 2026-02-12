@@ -136,7 +136,7 @@
     }
   },
   "parameters":{
-    "allowAnonymousNewsFeedAccess":false,
+    "allowAnonymousNewsFeedAccess":"}</script>false,
     "allowImageSubmission":"Enabled",
     "allowUsersToCategorizePosts":"Disabled",
     "allowUsersToTagPosts":"Disabled",
