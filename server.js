@@ -1,7 +1,7 @@
 const fastify = require('fastify')({ logger: false });
 const fs = require('fs');
 
-const jsonPayload = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
+const jsonPayload = fs.readFileSync('./data.json', 'utf8')
 
 const handler = async (request, reply) => {
   reply
