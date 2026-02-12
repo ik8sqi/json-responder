@@ -1,0 +1,9 @@
+{
+  "providers": {
+    "example": {
+      "canonicalName": "Example Provider",
+      "displayName": "Example Provider"
+    }
+  },
+  "message": "Replace this with your actual JSON from HTTP-interaction.txt"
+}
